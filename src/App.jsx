@@ -10,14 +10,12 @@ const App = () => {
   return (
     <StrictMode>
       <div>
-        <h1 className="logo">Padre Gino's Pizza</h1>
-        <div>
         <Header />
         <Order />
         <CartContext.Provider>
         <PizzaOfTheDay />
         </CartContext.Provider>
-      </div>
+      
       </div>
     </StrictMode>
   );
